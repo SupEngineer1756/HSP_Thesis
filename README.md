@@ -19,7 +19,7 @@ The **Cyclic Hoist Scheduling Problem (CHSP)** involves scheduling automated hoi
 The **MILP model** is used to determine the **minimum feasible cycle time** while enforcing all technological constraints. The objective function is:
 
 
-$\min T$
+                                           $\min T$
 
 
 where **T** is the cycle time.
