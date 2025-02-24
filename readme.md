@@ -19,7 +19,7 @@ The **MILP model** is used to determine the **minimum feasible cycle time** whil
 
 ```
 $$
-min T
+\min T
 $$
 ```
 
