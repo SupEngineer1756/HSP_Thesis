@@ -1,3 +1,4 @@
+
 # Hoist Scheduling Optimization
 
 This project implements the methodologies presented in Emna Laajili's research on the **Cyclic Multi-Hoist Scheduling Problem**, specifically the work detailed in:
@@ -5,7 +6,7 @@ This project implements the methodologies presented in Emna Laajili's research o
 - Laajili, E. (2021). *Modélisation et algorithmes pour le dimensionnement et l'ordonnancement cyclique d'atelier de traitement de surface*. Université de Technologie de Belfort-Montbéliard. [Link](https://theses.hal.science/tel-03551785v1/file/These_LAAJILI_UTBM.pdf)
 - Laajili, E., Lamrous, S., Manier, M.-A., & Nicod, J.-M. (2019). *Collision-Free Based Model for the Cyclic Multi-Hoist Scheduling Problem*. International Conference on Systems, Man, and Cybernetics. [Link](https://hal.science/hal-02399243v1)
 
-This work addresses **hoist scheduling in surface treatment workshops**, optimizing both the **cycle time** and the **collision-free movement of hoists**.
+This work addresses **hoist scheduling in surface treatment workshops**, optimizing both the **cycle time**.
 
 ## Problem Definition
 
@@ -18,9 +19,7 @@ The **Cyclic Hoist Scheduling Problem (CHSP)** involves scheduling automated hoi
 The **MILP model** is used to determine the **minimum feasible cycle time** while enforcing all technological constraints. The objective function is:
 
 
-$
-\min T
-$
+$\min T$
 
 
 where **T** is the cycle time.
